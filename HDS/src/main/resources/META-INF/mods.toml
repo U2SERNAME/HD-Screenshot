@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="hds"
+version="1.0.0"
+displayName="HD Screenshot"
+logoFile=""
+credits=""
+authors="YourName"
+description='''
+按下 ALT+F2 生成一张超大 TGA 图片（约 1.8 GB），保存在 screenshots 文件夹中。
+图片为红色纯色，分辨率 24576×24576，文件大小约 1.81 GB。
+注意：生成大文件需要时间，请稍等片刻。
+'''
+
+[[dependencies.hds]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21,1.22)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.hds]]
+modId="forge"
+mandatory=true
+versionRange="[49,)"
+ordering="NONE"
+side="CLIENT"
